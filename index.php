@@ -67,9 +67,9 @@
     <!-- Masthead-->
     <header class="masthead">
         <div class="container">
-            <div class="masthead-subheading">Changes That Effect</div>
-            <div class="masthead-heading text-uppercase">Where It Counts</div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Show Me More</a>
+            <div class="masthead-subheading">Changes That Occur</div>
+            <div class="masthead-heading text-uppercase">Where It Matters</div>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Show Me Services</a>
         </div>
     </header>
     <!-- Services-->
@@ -86,7 +86,7 @@
                         <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3">Software Engineering</h4>
-                    <p class="text-muted">The Systematic method of inducting a new cross-platform software system, or building features to a pre-existing one on the platforms of your choice.</p>
+                    <p class="text-muted">The systematic method of inducting a new cross-platform software system, or building features to a pre-existing one on the platforms of your choice.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -94,7 +94,7 @@
                         <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3">Software Re-Engineering</h4>
-                    <p class="text-muted">The Systematic deductive method of figuring out how a current system works and rebuilding all of its desired architectural blueprints and documentation.</p>
+                    <p class="text-muted">The systematic deductive method of figuring out how a current system works and rebuilding all of its desired architectural blueprints and documentation.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -110,7 +110,7 @@
                         <i class="fas fa-vial fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3">Software Testing</h4>
-                    <p class="text-muted">To test your software systems from the perspective of end-users from different backgrounds.</p>
+                    <p class="text-muted">To blackbox test your software systems from the perspective of end-users from different backgrounds. Also, to whitebox test your software systems from the perspective of battle-hardened developers.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -118,12 +118,12 @@
                         <i class="fa fa-bolt fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3">Consultation</h4>
-                    <p class="text-muted">To advise and present suitable technical solutions to your technical problems and business needs.</p>
+                    <p class="text-muted">To advise and present suitable technical solutions tailored to your technical problems and needs to supercharge your business.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-education fa-stack-1x fa-inverse"></i>
+                        <i class="fas fa-microscope fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3">Education, R&D</h4>
                     <p class="text-muted">To conclude scientific and formal training for specific subjects for research and development purposes.</p>
@@ -143,14 +143,14 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#PlancksoftMusic">
+                        <a class="portfolio-link" data-toggle="modal" href="#NeatVibez">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="Content/assets/img/portfolio/Plancksoft.png" alt="" />
+                            <img class="img-fluid" src="Content/assets/img/portfolio/neatvibez.png" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Plancksoft Music</div>
+                            <div class="portfolio-caption-heading">NeatVibez</div>
                             <div class="portfolio-caption-subheading text-muted">A cross-platform music sharing platform for artists and their audience</div>
                         </div>
                     </div>
@@ -272,6 +272,34 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#TileFall">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="Content/assets/img/portfolio/tilefall.png" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Tile Fall</div>
+                            <div class="portfolio-caption-subheading text-muted">A party multiplayer game where the last player to fall down to the lake, wins.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#SkyDeath">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="Content/assets/img/portfolio/skydeath.png" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Sky Death</div>
+                            <div class="portfolio-caption-subheading text-muted">A singleplayer tactical game where the player has to eliminate enemy wave attacks using a C130 gunship.</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -327,9 +355,9 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="Content/assets/img/team/bashar_01.jpg" alt="" />
+                        <img class="mx-auto rounded-circle" src="Content/assets/img/team/basharmbataineh.png" alt="Bashar M. Bataineh" />
                         <h4>Bashar M. Bataineh</h4>
-                        <p class="text-muted">Founder, CEO, and Lead Creative Systems Designer</p>
+                        <p class="text-muted">Co-Founder, CEO, and Lead Software Engineer</p>
                         <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://twitter.com/wingsofaltair"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.facebook.com/WingsOfAltair/"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.linkedin.com/in/bashar-bataineh-b684aa98/"><i class="fab fa-linkedin-in"></i></a>
@@ -337,7 +365,14 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="Content/assets/img/team/mohammad_02.jpg" alt="" />
+                        <img class="mx-auto rounded-circle" src="Content/assets/img/team/aseelfnassar.png" alt="Aseel F. AlNassar" />
+                        <h4>Aseel F. AlNassar</h4>
+                        <p class="text-muted">Head of Human Resources</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="Content/assets/img/team/mohammednusir.png" alt="Mohammed Nusir" />
                         <h4>Mohammed Nusir</h4>
                         <p class="text-muted">Fullstack Web Developer & Machine Learning Specialist</p>
                         <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.linkedin.com/in/mohammad-i-nusir-66b517140/"><i class="fab fa-linkedin-in"></i></a>
@@ -413,7 +448,7 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-left">Copyright © Plancksoft 2021</div>
+                <div class="col-lg-4 text-lg-left">Copyright © Plancksoft 2022</div>
                 <div class="col-lg-4 my-3 my-lg-0">
 <!--
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
@@ -432,7 +467,7 @@
     </footer>
     <!-- Portfolio Modals-->
     <!-- Modal 1-->
-    <div class="portfolio-modal modal fade" id="PlancksoftMusic" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="NeatVibez" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal"><img src="Content/assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -441,12 +476,12 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Plancksoft Music</h2>
+                                <h2 class="text-uppercase">NeatVibez</h2>
                                 <p class="item-intro text-muted">A cross-platform music sharing platform for artists and their audience</p>
-                                <img class="img-fluid d-block mx-auto" src="Content/assets/img/portfolio/Plancksoft.png" alt="" />
+                                <img class="img-fluid d-block mx-auto" src="Content/assets/img/portfolio/neatvibez.png" alt="" />
                                 <p>Available on Web, Android, and soon to be published on iOS.</p>
                                 <ul class="list-inline">
-                                    <li>Link: <a href ="https://music.Plancksoft.com" target="_blank">Plancksoft Music</a></li>
+                                    <li>Link: <a href ="https://neatvibez.com" target="_blank">NeatVibez</a></li>
                                     <li>Developer: Plancksoft</li>
                                     <li>Category: Music</li>
                                 </ul>
@@ -493,7 +528,7 @@ The game contains violence through ranged and melee weaponry piercing through th
 				    <li>Website: <a href="https://invasionzero.Plancksoft.com/" target="_blank">Invasion Zero</a></li>
                                     <li>Available on: Steam, Google Play Store, Apple App Store</li>
                                     <li>Developer: Plancksoft</li>
-                                    <li>Publisher: Plancksoft</li>
+                                    <li>Publisher: NeatVibez</li>
                                     <li>Category: Action, Shooter</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -644,7 +679,7 @@ The game contains violence through ranged and melee weaponry piercing through th
                                 <ul class="list-inline">
                                     <li>Available on: Google Play Store, Apple App Store</li>
                                     <li>Developer: Plancksoft</li>
-                                    <li>Publisher: Plancksoft</li>
+                                    <li>Publisher: NeatVibez</li>
                                     <li>Category: Puzzle</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -676,7 +711,7 @@ The game contains violence through ranged and melee weaponry piercing through th
                                     <li>Available on: Web</li>
                                     <li>Website Link: <a href="https://Plancksoft.com/hackerchallenge" target="_blank">Hacker Challenge</a></li>
                                     <li>Developer: Plancksoft</li>
-                                    <li>Publisher: Plancksoft</li>
+                                    <li>Publisher: NeatVibez</li>
                                     <li>Category: Puzzle</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -708,6 +743,68 @@ The game contains violence through ranged and melee weaponry piercing through th
                                     <li>Developer: Plancksoft</li>
                                     <li>Demo: Contact us to see a working demo</li>
                                     <li>Category: Transportation</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 10-->
+    <div class="portfolio-modal modal fade" id="TileFall" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="Content/assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Tile Fall</h2>
+                                <p class="item-intro text-muted">A multiplayer party game.</p>
+                                <img class="img-fluid d-block mx-auto" src="Content/assets/img/portfolio/tilefall.png" alt="" />
+                                <p>This is a multiplayer party game designed for a maximum of 8 players. The players have to survive on destroyable tiles for as long as possible. The last player to fall down to the lake wins.</p>
+                                <ul class="list-inline">
+                                    <li>Available on: Android, iOS, Windows PC</li>
+                                    <li>Developer: Plancksoft</li>
+                                    <li>Demo: Contact us to see a working demo</li>
+                                    <li>Category: Party Game</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 11-->
+    <div class="portfolio-modal modal fade" id="SkyDeath" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="Content/assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Sky Death</h2>
+                                <p class="item-intro text-muted">A singleplayer tactical game.</p>
+                                <img class="img-fluid d-block mx-auto" src="Content/assets/img/portfolio/skydeath.png" alt="" />
+                                <p>This is a singleplayer game inspired by "Death From Above" Call of Duty Modern Warfare mission. The players takes control of a C130 gunship and has a few weapons at their disposal to eliminate enemy waves.</p>
+                                <ul class="list-inline">
+                                    <li>Available on: Windows PC</li>
+                                    <li>Developer: Plancksoft</li>
+                                    <li>Demo: Contact us to see a working demo</li>
+                                    <li>Category: Tactical Game</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
