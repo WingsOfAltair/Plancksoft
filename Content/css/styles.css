@@ -2442,8 +2442,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #a545ef;
-    border-color: #a545ef;
+    background-color: #003352;
+    border-color: #003352;
 }
     .btn-primary:hover {
         color: #fff;
@@ -10059,7 +10059,7 @@ img::-moz-selection {
         font-size: 0.85rem;
         color: #fff;
         text-transform: uppercase;
-        background-color: #2789a6;
+        background-color: #003352;
         border: 0;
     }
     #mainNav .navbar-brand {
@@ -10124,8 +10124,8 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url("../assets/img/neatvibez.png");
-    background-color: #2789a6;
+    background-image: url("../assets/img/background.jpg");
+    background-color: #003352;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
