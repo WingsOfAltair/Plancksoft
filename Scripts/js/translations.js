@@ -111,7 +111,7 @@ const translations = {
     portfolio_neatvibez_title: "NeatVibez",
     portfolio_neatvibez_desc: "A cross-platform music sharing platform for artists and their audience",
     portfolio_pos_title: "Plancksoft POS System",
-    portfolio_pos_desc: "A simple point-of-sale system for Windows OS built with C#.NET",
+    portfolio_pos_desc: "A cloud or on-premises point-of-sale system for Windows OS built with C#.NET",
     portfolio_studycap_title: "StudyCap",
     portfolio_studycap_desc: "An education institution management system",
     portfolio_scrutanet_title: "ScrutaNet",
@@ -159,7 +159,7 @@ const translations = {
 
     // Modal - Plancksoft POS
     modal_pos_title: "Plancksoft Point-of-Sale System",
-    modal_pos_intro: "A distributed parallel point-of-sale system for all of your financial merchandising needs.",
+    modal_pos_intro: "A distributed parallel cloud or on-premises point-of-sale system for all of your financial merchandising needs.",
     modal_pos_content: "This system is secured with the Plancksoft offline Digital Rights Management system and contains many reports and selling functionalities with discount capabilities",
 
     // Modal - Booty Bay
@@ -338,7 +338,7 @@ const translations = {
 
     // Modal - Plancksoft POS
     modal_pos_title: "نظام الفاتورة الذكية",
-    modal_pos_intro: "نظام نقطة بيع موزع متوازي لجميع احتياجات البيع المالية الخاصة بك.",
+    modal_pos_intro: "نظام نقطة بيع موزع متوازي سحابي أو محلي لجميع احتياجات البيع المالية الخاصة بك.",
     modal_pos_content: "يتم تأمين هذا النظام بنظام إدارة الحقوق الرقمية غير المتصل بـ Plancksoft ويحتوي على العديد من التقارير والوظائف البيعية مع إمكانيات الخصم",
 
     // Modal - Booty Bay
@@ -390,7 +390,7 @@ const translations = {
     portfolio_neatvibez_title: "NeatVibez",
     portfolio_neatvibez_desc: "منصة مشاركة موسيقى متعددة المنصات للفنانين وجمهورهم",
     portfolio_pos_title: "نظام الفاتورة الذكية",
-    portfolio_pos_desc: "نظام نقطة بيع بسيط لنظام التشغيل Windows مُبني بـ C#.NET",
+    portfolio_pos_desc: "نظام نقطة بيع سحابي أو محلي لنظام التشغيل Windows مُبني بـ C#.NET",
     portfolio_studycap_title: "StudyCap",
     portfolio_studycap_desc: "نظام إدارة المؤسسات التعليمية",
     portfolio_scrutanet_title: "ScrutaNet",
