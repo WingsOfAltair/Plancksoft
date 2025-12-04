@@ -210,7 +210,7 @@ const translations = {
   ar: {
     // Navigation
     nav_services: "الخدمات",
-    nav_portfolio: "المحفظة",
+    nav_portfolio: "بعد الأعمال الهندسية",
     nav_about: "حول",
     nav_team: "الفريق",
     nav_contact: "اتصل بنا",
@@ -245,7 +245,7 @@ const translations = {
       "تقديم التدريب العلمي والرسمي لموضوعات محددة لموظفيك. أغراض البحث والتطوير من خلال التجربة والخطأ الفعالة.",
 
     // Portfolio Section
-    portfolio_heading: "المحفظة",
+    portfolio_heading: "بعد الأعمال الهندسية",
     portfolio_subheading: "إليك بعض المنتجات التي نشرناها والتي نعمل عليها.",
 
     // About Section

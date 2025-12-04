@@ -10228,6 +10228,7 @@ header.masthead .masthead-heading {
 }
 .portfolio-modal .modal-content p {
   margin-bottom: 2rem;
+  color: #002531;
 }
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
@@ -10298,19 +10299,37 @@ header.masthead .masthead-heading {
         position: absolute;
         z-index: 100;
         left: 0;
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
         margin-left: 0;
         text-align: center;
         color: white;
         border: 7px solid #e9ecef;
         border-radius: 100%;
         background-color: #2789a6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
     }
 .timeline > li .timeline-image h4 {
-  font-size: 10px;
-  line-height: 14px;
-  margin-top: 12px;
+  font-size: 12px;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  width: 100%;
+  display: block;
+}
+.timeline > li .timeline-image h4:nth-child(1) {
+  margin-top: 0px;
+}
+.timeline > li .timeline-image h4:nth-child(2) {
+  margin-top: 0px;
+}
+.timeline > li .timeline-image h4:nth-child(3) {
+  margin-top: 0px;
 }
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
@@ -10499,6 +10518,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   --accent: #e8f4f8;
   --text-dark: #2c3e50;
   --text-light: #7f8c8d;
+  --text-muted: #5a6c7d;
   --border-radius: 12px;
   --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
   --shadow-md: 0 8px 24px rgba(0,0,0,0.12);
@@ -10509,7 +10529,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 body {
   font-family: 'Montserrat', 'Segoe UI', sans-serif;
   color: var(--text-dark);
-  background-color: #fff;
+  background-color: #f5fafb;
   -webkit-font-smoothing: antialiased;
   line-height: 1.6;
 }
@@ -10553,7 +10573,7 @@ body {
 
 .section-subheading {
   font-size: 1.1rem;
-  color: var(--text-light);
+  color: #555555;
   margin-bottom: 50px;
   font-weight: 400;
   max-width: 600px;
@@ -10724,7 +10744,24 @@ body {
 }
 
 .text-muted {
-  color: var(--text-light) !important;
+  color: #002531 !important;
+}
+
+/* Dark background sections - lighter muted text */
+section#contact .text-muted,
+section#contact .section-subheading,
+section#contact p,
+.bg-dark .text-muted {
+  color: #5eb3d6 !important;
+}
+
+/* Light background sections - darker muted text */
+.page-section:not(#contact) .text-muted {
+  color: #002531 !important;
+}
+
+.bg-light .text-muted {
+  color: #002531 !important;
 }
 
 /* Language Dropdown */
