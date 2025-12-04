@@ -260,8 +260,8 @@ const translations = {
     about_desc_2:
       "في يناير من عام 2021، وُلدت Plancksoft كشركة تقنية قائمة على الإنترنت.",
     about_join_1: "كن جزءاً",
-    about_join_2: "من قصتنا",
-    about_join_3: "!",
+    about_join_2: "من",
+    about_join_3: "قصتنا!",
 
     // Team Section
     team_heading: "فريقنا الرائع",
