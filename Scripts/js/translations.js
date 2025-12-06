@@ -206,6 +206,8 @@ const translations = {
     modal_scrutanet_title: "ScrutaNet",
     modal_scrutanet_intro: "A cross-platform distributed parallel hash cracking system.",
     modal_scrutanet_content: "This system works on both Windows and Linux OS. Its primary purpose is to attack a single hash from multiple angles with different settings to share the load.",
+    modal_scrutanet_homepage: "ScrutaNet Homepage",
+    modal_github_repository: "GitHub Repository",
   },
   ar: {
     // Navigation
@@ -385,6 +387,8 @@ const translations = {
     modal_scrutanet_title: "ScrutaNet",
     modal_scrutanet_intro: "نظام فك تشفير التجزئة الموزع والمتوازي عبر الأنظمة الأساسية.",
     modal_scrutanet_content: "يعمل هذا النظام على كل من أنظمة التشغيل Windows و Linux. الغرض الأساسي منه هو مهاجمة تجزئة واحدة من عدة زوايا بإعدادات مختلفة لمشاركة الحمل.",
+    modal_scrutanet_homepage: "الصفحة الرئيسية لـ ScrutaNet",
+    modal_github_repository: "مستودع GitHub",
 
     // Portfolio Items - Apps
     portfolio_neatvibez_title: "NeatVibez",
