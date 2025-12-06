@@ -156,6 +156,7 @@ const translations = {
     // Modal - Invasion Zero
     modal_invasionzero_title: "Invasion Zero",
     modal_invasionzero_intro: "A free-to-play online multi-player first/third person shooter game",
+    modal_invasionzero_homepage: "Invasion Zero Homepage",
 
     // Modal - Plancksoft POS
     modal_pos_title: "Plancksoft Point-of-Sale System",
@@ -337,6 +338,7 @@ const translations = {
     // Modal - Invasion Zero
     modal_invasionzero_title: "Invasion Zero",
     modal_invasionzero_intro: "لعبة إطلاق نار متعددة اللاعبين عبر الإنترنت مجانية متعددة المنصات",
+    modal_invasionzero_homepage: "صفحة الرئيسية لـ Invasion Zero",
 
     // Modal - Plancksoft POS
     modal_pos_title: "نظام الفاتورة الذكية",
