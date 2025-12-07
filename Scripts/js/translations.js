@@ -99,7 +99,7 @@ const translations = {
     modal_invasionzero_content: "Invasion Zero is a multi-player online free to play first-shooter game supporting up-to 8 players per single session where you are able to play against enemy AI bots or players from all over the world. As the main player, you are equipped with a machine gun, shotgun, or sniper rifle depending on your class with a gun and a knife and a hand grenade. Your main objective is to survive the battle as much as possible while destroying the spawning enemy forces. The game contains several playable modes such as: 1- Team Deathmatch (TDM), 2- Free-for-all (FFA), 3- Capture The Flag (CTF), 4- Gun Race (GR), 5- Domination / Cover Point (CP), 6- Search and Destroy (SND), 7- Elimination, 8- Demolition. The game contains violence through ranged and melee weaponry piercing through the body of the enemy players.",
 
     // Footer
-    footer_copyright: "Copyright © Plancksoft 2017-2025",
+    footer_copyright: "Copyright © Plancksoft 2017-2026",
     footer_privacy: "Privacy Policy",
     footer_terms: "Terms of Service",
 
@@ -309,7 +309,7 @@ const translations = {
     modal_invasionzero_content: "Invasion Zero هي لعبة إطلاق نار متعددة اللاعبين عبر الإنترنت مجانية تدعم حتى 8 لاعبين في جلسة واحدة حيث يمكنك اللعب ضد ذكاء اصطناعي أو لاعبين من جميع أنحاء العالم. كلاعب رئيسي، يتم تجهيزك برشاش أو بندقية صيد أو بندقية قنص اعتماداً على فئتك مع مسدس وسكين وقنبلة يدوية. الهدف الرئيسي لك هو البقاء في المعركة قدر الإمكان مع تدمير القوات المعادية المتفرخة. تحتوي اللعبة على عدة أنماط قابلة للعب مثل: 1- فريق Deathmatch (TDM)، 2- Free-for-all (FFA)، 3- Capture The Flag (CTF)، 4- Gun Race (GR)، 5- Domination / Cover Point (CP)، 6- Search and Destroy (SND)، 7- Elimination، 8- Demolition. تحتوي اللعبة على عنف من خلال الأسلحة البعيدة والقتالية التي تخترق جسم اللاعبين الأعداء.",
 
     // Footer
-    footer_copyright: "جميع الحقوق محفوظة © Plancksoft 2017-2025",
+    footer_copyright: "جميع الحقوق محفوظة © Plancksoft 2017-2026",
     footer_privacy: "سياسة الخصوصية",
     footer_terms: "شروط الخدمة",
 
