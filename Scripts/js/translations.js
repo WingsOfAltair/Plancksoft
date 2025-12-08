@@ -77,7 +77,7 @@ const translations = {
     // Contact Section
     contact_heading: "Investors & Recruits",
     contact_subheading:
-      "Fill out this form to contact us, or alternatively, contact us at b.m.bataineh@plancksoft.net for more information or to apply to be a part of our family.",
+      "Fill out this form to contact us, or alternatively, contact us at contact@plancksoft.net for more information or to apply to be a part of our family.",
     contact_name_label: "Your Name",
     contact_name_placeholder: "Your Name *",
     contact_email_label: "Your Email",
@@ -287,7 +287,7 @@ const translations = {
     // Contact Section
     contact_heading: "المستثمرون والموارد البشرية",
     contact_subheading:
-      "املأ هذا النموذج للتواصل معنا، أو على بديل، اتصل بنا على b.m.bataineh@plancksoft.net للحصول على مزيد من المعلومات أو للتقدم ليكون جزءاً من عائلتنا.",
+      "املأ هذا النموذج للتواصل معنا، أو على بديل، اتصل بنا على contact@plancksoft.net للحصول على مزيد من المعلومات أو للتقدم ليكون جزءاً من عائلتنا.",
     contact_name_label: "اسمك",
     contact_name_placeholder: "اسمك *",
     contact_email_label: "بريدك الإلكتروني",
