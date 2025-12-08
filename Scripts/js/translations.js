@@ -60,7 +60,7 @@ const translations = {
     team_heading: "Our Amazing Team",
     team_subheading: "We are a family of aspiring polyglots and polymaths.",
     team_member_1_name: "Bashar M. Bataineh",
-    team_member_1_role: "Co-Founder, CEO, and Director of IT & Engineering",
+    team_member_1_role: "Co-Founder, CEO & CTO",
     team_member_2_name: "Dana K. Gharaibeh",
     team_member_2_role: "B2B Solutions Project Manager",
     team_member_3_name: "Mohammed Nusir",
