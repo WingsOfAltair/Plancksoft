@@ -100,6 +100,9 @@ const translations = {
 
     // Footer
     footer_copyright: "Copyright © Plancksoft 2017-2026",
+    footer_phone: "Phone: +962 77 6472 166",
+    footer_email: "Email: contact@plancksoft.net",
+    footer_address: "Address: 40 Al Karak Street, Al Hay Al Sharqy, Irbid, Jordan",
     footer_privacy: "Privacy Policy",
     footer_terms: "Terms of Service",
 
@@ -310,6 +313,9 @@ const translations = {
 
     // Footer
     footer_copyright: "جميع الحقوق محفوظة © Plancksoft 2017-2026",
+    footer_phone: "الهاتف: +962 77 6472 166",
+    footer_email: "البريد الإلكتروني: contact@plancksoft.net",
+    footer_address: "العنوان: 40 شارع الكرك، الحي الشرقي، إربد، الأردن",
     footer_privacy: "سياسة الخصوصية",
     footer_terms: "شروط الخدمة",
 
