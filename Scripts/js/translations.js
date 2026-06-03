@@ -281,7 +281,7 @@ const translations = {
     team_member_3_name: "محمد نصير",
     team_member_3_role: "مطور ويب Fullstack و متخصص في التعلم الآلي",
     team_member_4_name: "قيس شوتر",
-    team_member_4_role: "هندس دعم فني",
+    team_member_4_role: "مهندس دعم فني",
     team_join_message: "هل تود الانضمام إلى عائلتنا؟ تواصل معنا مع سيرتك الذاتية ودعنا نرتب اجتماعاً!",
 
     // Clients Section
