@@ -65,6 +65,8 @@ const translations = {
     team_member_2_role: "B2B Solutions Project Manager",
     team_member_3_name: "Mohammed Nusir",
     team_member_3_role: "Fullstack Web Developer & Machine Learning Specialist",
+    team_member_4_name: "Qais Shotar",
+    team_member_4_role: "Technical Support Engineer",
     team_join_message: "Would you like to join our family? Contact us with your CV and let's arrange a meeting!",
 
     // Clients Section
@@ -278,6 +280,8 @@ const translations = {
     team_member_2_role: "مدير مشاريع حلول B2B",
     team_member_3_name: "محمد نصير",
     team_member_3_role: "مطور ويب Fullstack و متخصص في التعلم الآلي",
+    team_member_4_name: "قيس شوتر",
+    team_member_4_role: "هندس دعم فني",
     team_join_message: "هل تود الانضمام إلى عائلتنا؟ تواصل معنا مع سيرتك الذاتية ودعنا نرتب اجتماعاً!",
 
     // Clients Section
