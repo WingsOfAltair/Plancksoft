@@ -196,8 +196,8 @@
                 </div>
             </div>
         </div>
-		<button class="collapsible" data-i18n="videogames_title">Video-games</button>
-	<div class="content">
+        <button class="collapsible" data-i18n="videogames_title">Video-games</button>
+	    <div class="content">
             <div class="row">
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="portfolio-item">
@@ -308,6 +308,26 @@
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading" data-i18n="game_skydeath_title">Sky Death</div>
                             <div class="portfolio-caption-subheading text-muted" data-i18n="game_skydeath_desc">A singleplayer tactical game where the player has to eliminate enemy wave attacks using a C130 gunship.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <button class="collapsible" data-i18n="ue_plugins_title">Unreal Engine Plugins</button>
+	    <div class="content">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#MPDN">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="Content/assets/img/portfolio/1920x1080 MPDN.png" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading" data-i18n="ue_plugin_mpdn_title">[MPDN] Moving Platforms Dynamic Navigation</div>
+                            <div class="portfolio-caption-subheading text-muted" data-i18n="ue_plugin_mpdn_desc">This tool solves a common problem with Unreal Engine for AI pawns movement in general on Moving Platforms.</div>
                         </div>
                     </div>
                 </div>
@@ -871,6 +891,49 @@ The game contains violence through ranged and melee weaponry piercing through th
                                     <li><span data-i18n="modal_sourcecode">Source Code</span>: <a href="https://github.com/WingsOfAltair/ScrutaNet" target="_blank" data-i18n="modal_github_repository">GitHub Repository</a></li>
                                     <li><span data-i18n="modal_websitelink">Website Link</span>: <a href="https://scrutanet.plancksoft.net" target="_blank" data-i18n="modal_scrutanet_homepage">ScrutaNet Homepage</a></li>
                                     <li><span data-i18n="modal_category">Category</span>: Security, Hacking</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    <span data-i18n="modal_close">Close Project</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 13-->
+    <div class="portfolio-modal modal fade" id="MPDN" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="Content/assets/img/close-icon.svg" alt="Close modal" data-i18n-alt="modal_close_alt" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase" data-i18n="modal_mpdn_title">[MPDN] Moving Platform Dynamic Navigation</h2>
+                                <p class="item-intro text-muted" data-i18n="modal_mpdn_intro">A dynamic navigation plugin solution for AI navigation on moving platforms in Unreal Engine.</p>
+                                <img class="img-fluid d-block mx-auto" src="Content/assets/img/portfolio/1920x1080 MPDN.png" alt="" />
+                                <p data-i18n="modal_mpdn_content_1">[MPDN] Moving Platform Dynamic Navigation is an Unreal Engine plugin designed to handle AI character and pawn movement and navigation on moving platforms in games and cinematic environments.</p>
+                                <p data-i18n="modal_mpdn_content_2">Unreal Engine's navigation mesh must be baked and only works on stable, static terrain and actors.</p>
+                                <p data-i18n="modal_mpdn_content_3">This solution provides a navigation volume for asynchronous movement functions.</p>
+                                <p data-i18n="modal_mpdn_movement_heading">Available movement types:</p>
+                                <ol>
+                                    <li data-i18n="modal_mpdn_movement_1">Move toward a goal (vector coordinates)</li>
+                                    <li data-i18n="modal_mpdn_movement_2">Move toward waypoints in local or world coordinates</li>
+                                    <li data-i18n="modal_mpdn_movement_3">Move along a spline</li>
+                                    <li data-i18n="modal_mpdn_movement_4">Patrol the entire volume</li>
+                                    <li data-i18n="modal_mpdn_movement_5">Wander randomly throughout the volume</li>
+                                </ol>
+                                <p data-i18n="modal_mpdn_content_4">All movement types offer running or walking options; some also support looping.</p>
+                                <ul class="list-inline">
+                                    <li><span data-i18n="modal_available">Available on</span>: <a href="https://www.fab.com/" target="_blank">FAB</a></li>
+                                    <li><span data-i18n="modal_pluginlink">Plugin FAB Link</span>: <a href="https://www.fab.com/listings/c344e4d0-0e52-497c-b225-1213127ad16d" target="_blank" data-i18n="modal_mpdn_homepage">[MPDN] Moving Platforms Dynamic Navigation on FAB</a></li>
+                                    <li><span data-i18n="modal_developer">Developer</span>: Plancksoft</li>
+                                    <li><span data-i18n="modal_publisher">Publisher</span>: Plancksoft</li>
+                                    <li><span data-i18n="modal_category">Category</span>: <span data-i18n="modal_mpdn_category">Unreal Engine Plugin</span></li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>

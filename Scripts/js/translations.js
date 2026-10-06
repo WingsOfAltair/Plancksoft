@@ -96,6 +96,7 @@ const translations = {
 
     // Modal Additional Labels
     modal_websitelink: "Website Link",
+    modal_close_alt: "Close modal",
 
     // Modal - Invasion Zero (Full Description)
     modal_invasionzero_content: "Invasion Zero is a multi-player online free to play first-shooter game supporting up-to 8 players per single session where you are able to play against enemy AI bots or players from all over the world. As the main player, you are equipped with a machine gun, shotgun, or sniper rifle depending on your class with a gun and a knife and a hand grenade. Your main objective is to survive the battle as much as possible while destroying the spawning enemy forces. The game contains several playable modes such as: 1- Team Deathmatch (TDM), 2- Free-for-all (FFA), 3- Capture The Flag (CTF), 4- Gun Race (GR), 5- Domination / Cover Point (CP), 6- Search and Destroy (SND), 7- Elimination, 8- Demolition. The game contains violence through ranged and melee weaponry piercing through the body of the enemy players.",
@@ -111,6 +112,9 @@ const translations = {
     // Apps and Video-games Buttons
     apps_title: "Apps",
     videogames_title: "Video-games",
+    ue_plugins_title: "Unreal Engine Plugins",
+    ue_plugin_mpdn_title: "[MPDN] Moving Platforms Dynamic Navigation",
+    ue_plugin_mpdn_desc: "A solution to a common Unreal Engine problem: moving AI pawns across moving platforms.",
 
     // Portfolio Items - Apps
     portfolio_neatvibez_title: "NeatVibez",
@@ -214,6 +218,22 @@ const translations = {
     modal_scrutanet_content: "This system works on both Windows and Linux OS. Its primary purpose is to attack a single hash from multiple angles with different settings to share the load.",
     modal_scrutanet_homepage: "ScrutaNet Homepage",
     modal_github_repository: "GitHub Repository",
+
+    // Modal - Moving Platforms Dynamic Navigation
+    modal_mpdn_title: "[MPDN] Moving Platform Dynamic Navigation",
+    modal_mpdn_intro: "A dynamic navigation plugin for AI on moving platforms in Unreal Engine.",
+    modal_mpdn_content_1: "[MPDN] Moving Platform Dynamic Navigation is an Unreal Engine plugin designed to handle AI character and pawn movement and navigation on moving platforms in games and cinematic environments.",
+    modal_mpdn_content_2: "Unreal Engine's navigation mesh must be baked and only works on stable, static terrain and actors.",
+    modal_mpdn_content_3: "This solution provides a navigation volume for asynchronous movement functions.",
+    modal_mpdn_movement_heading: "Available movement types:",
+    modal_mpdn_movement_1: "Move toward a goal (vector coordinates)",
+    modal_mpdn_movement_2: "Move toward waypoints in local or world coordinates",
+    modal_mpdn_movement_3: "Move along a spline",
+    modal_mpdn_movement_4: "Patrol the entire volume",
+    modal_mpdn_movement_5: "Wander randomly throughout the volume",
+    modal_mpdn_content_4: "All movement types offer running or walking options; some also support looping.",
+    modal_mpdn_homepage: "[MPDN] Moving Platforms Dynamic Navigation on FAB",
+    modal_mpdn_category: "Unreal Engine Plugin",
   },
   ar: {
     // Navigation
@@ -311,6 +331,7 @@ const translations = {
 
     // Modal Additional Labels
     modal_websitelink: "رابط الويب",
+    modal_close_alt: "إغلاق النافذة",
 
     // Modal - Invasion Zero (Full Description)
     modal_invasionzero_content: "Invasion Zero هي لعبة إطلاق نار متعددة اللاعبين عبر الإنترنت مجانية تدعم حتى 8 لاعبين في جلسة واحدة حيث يمكنك اللعب ضد ذكاء اصطناعي أو لاعبين من جميع أنحاء العالم. كلاعب رئيسي، يتم تجهيزك برشاش أو بندقية صيد أو بندقية قنص اعتماداً على فئتك مع مسدس وسكين وقنبلة يدوية. الهدف الرئيسي لك هو البقاء في المعركة قدر الإمكان مع تدمير القوات المعادية المتفرخة. تحتوي اللعبة على عدة أنماط قابلة للعب مثل: 1- فريق Deathmatch (TDM)، 2- Free-for-all (FFA)، 3- Capture The Flag (CTF)، 4- Gun Race (GR)، 5- Domination / Cover Point (CP)، 6- Search and Destroy (SND)، 7- Elimination، 8- Demolition. تحتوي اللعبة على عنف من خلال الأسلحة البعيدة والقتالية التي تخترق جسم اللاعبين الأعداء.",
@@ -326,6 +347,9 @@ const translations = {
     // Apps and Video-games Buttons
     apps_title: "التطبيقات",
     videogames_title: "ألعاب الفيديو",
+    ue_plugins_title: "إضافات Unreal Engine",
+    ue_plugin_mpdn_title: "[MPDN] التنقل الديناميكي على المنصات المتحركة",
+    ue_plugin_mpdn_desc: "حل لمشكلة شائعة في Unreal Engine: تحريك شخصيات الذكاء الاصطناعي على المنصات المتحركة.",
 
     // Modal Common
     modal_link: "الرابط",
@@ -402,6 +426,22 @@ const translations = {
     modal_scrutanet_homepage: "الصفحة الرئيسية لـ ScrutaNet",
     modal_github_repository: "مستودع GitHub",
 
+    // Modal - Moving Platforms Dynamic Navigation
+    modal_mpdn_title: "[MPDN] التنقل الديناميكي على منصة متحركة",
+    modal_mpdn_intro: "إضافة تنقل ديناميكي لشخصيات الذكاء الاصطناعي على المنصات المتحركة في Unreal Engine.",
+    modal_mpdn_content_1: "إضافة [MPDN] للتنقل الديناميكي على المنصات المتحركة هي إضافة لـ Unreal Engine مصممة للتعامل مع حركة وتنقل شخصيات الذكاء الاصطناعي على المنصات المتحركة ضمن الألعاب والبيئات السينمائية.",
+    modal_mpdn_content_2: "يتطلب مخطط التنقل في Unreal Engine إعداداً مسبقاً، ولا يعمل إلا على التضاريس والعناصر الثابتة.",
+    modal_mpdn_content_3: "يوفر هذا الحل مجسماً للتنقل تستخدمه وظائف الحركة غير المتزامنة.",
+    modal_mpdn_movement_heading: "أنواع الحركة المتاحة:",
+    modal_mpdn_movement_1: "التحرك نحو هدف (إحداثيات متجه)",
+    modal_mpdn_movement_2: "التحرك نحو نقاط مسار بإحداثيات محلية أو عالمية",
+    modal_mpdn_movement_3: "التحرك على طول مسار منحني",
+    modal_mpdn_movement_4: "الدوريات في كامل المجال",
+    modal_mpdn_movement_5: "التجول عشوائياً في كامل المجال",
+    modal_mpdn_content_4: "تتيح جميع أنواع الحركة الاختيار بين الجري والمشي، كما تدعم بعض الأنواع التكرار.",
+    modal_mpdn_homepage: "[MPDN] التنقل الديناميكي على المنصات المتحركة على FAB",
+    modal_mpdn_category: "إضافة لـ Unreal Engine",
+
     // Portfolio Items - Apps
     portfolio_neatvibez_title: "NeatVibez",
     portfolio_neatvibez_desc: "منصة مشاركة موسيقى متعددة المنصات للفنانين وجمهورهم",
@@ -463,6 +503,11 @@ function translateContent(lang) {
       } else {
         element.textContent = t[key];
       }
+    }
+
+    const altKey = element.getAttribute("data-i18n-alt");
+    if (altKey && t[altKey]) {
+      element.setAttribute("alt", t[altKey]);
     }
   });
 
