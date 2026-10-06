@@ -482,14 +482,34 @@ const translations = {
   },
 };
 
-// Get current language from localStorage or default to English
+// Prefer the language in the URL so each localized version has a stable address.
 function getCurrentLanguage() {
+  const languageParam = new URLSearchParams(window.location.search).get("lang");
+  if (languageParam === "en" || languageParam === "ar") {
+    return languageParam;
+  }
+
   return localStorage.getItem("plancksoft_language") || "en";
 }
 
 // Set language in localStorage
 function setLanguage(lang) {
   localStorage.setItem("plancksoft_language", lang);
+}
+
+function updateLocalizedUrl(lang) {
+  const url = new URL(window.location.href);
+  if (lang === "ar") {
+    url.searchParams.set("lang", "ar");
+  } else {
+    url.searchParams.delete("lang");
+  }
+  window.history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
+
+  const localizedUrl =
+    lang === "ar" ? "https://plancksoft.net/?lang=ar" : "https://plancksoft.net/";
+  document.querySelector('link[rel="canonical"]').href = localizedUrl;
+  document.querySelector('meta[property="og:url"]').content = localizedUrl;
 }
 
 // Translate content
@@ -528,6 +548,7 @@ function translateContent(lang) {
   document.querySelector('meta[property="og:locale"]').content =
     lang === "ar" ? "ar_JO" : "en_US";
   document.querySelector('meta[property="og:image:alt"]').content = t.seo_image_alt;
+  updateLocalizedUrl(lang);
   document.querySelector('meta[name="twitter:title"]').content = t.seo_title;
   document.querySelector('meta[name="twitter:description"]').content = t.seo_description;
   document.querySelector('meta[name="twitter:image:alt"]').content = t.seo_image_alt;
@@ -548,6 +569,7 @@ function changeLanguage(lang) {
 // Initialize localization on page load
 document.addEventListener("DOMContentLoaded", function () {
   const currentLang = getCurrentLanguage();
+  setLanguage(currentLang);
   translateContent(currentLang);
 
   // Update language dropdown display
