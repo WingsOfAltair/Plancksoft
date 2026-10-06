@@ -1,6 +1,11 @@
 // Plancksoft Localization Strings
 const translations = {
   en: {
+    seo_title: "Plancksoft | Software Engineering & Reverse Engineering",
+    seo_description:
+      "Plancksoft provides software engineering, re-engineering, reverse engineering, systems security, testing, and technical consulting from Irbid, Jordan.",
+    seo_image_alt: "Plancksoft - software engineering and technology services",
+
     // Navigation
     nav_services: "Services",
     nav_portfolio: "Portfolio",
@@ -236,6 +241,11 @@ const translations = {
     modal_mpdn_category: "Unreal Engine Plugin",
   },
   ar: {
+    seo_title: "بلانكسوفت | هندسة البرمجيات والهندسة العكسية",
+    seo_description:
+      "تقدم بلانكسوفت خدمات هندسة البرمجيات وإعادة هندستها والهندسة العكسية وأمن الأنظمة والاختبار والاستشارات التقنية من إربد، الأردن.",
+    seo_image_alt: "بلانكسوفت - خدمات هندسة البرمجيات والتقنية",
+
     // Navigation
     nav_services: "الخدمات",
     nav_portfolio: "بعد الأعمال الهندسية",
@@ -511,12 +521,16 @@ function translateContent(lang) {
     }
   });
 
-  // Update document title if needed
-  if (lang === "ar") {
-    document.title = "بلانكسوفت";
-  } else {
-    document.title = "Plancksoft";
-  }
+  document.title = t.seo_title;
+  document.querySelector('meta[name="description"]').content = t.seo_description;
+  document.querySelector('meta[property="og:title"]').content = t.seo_title;
+  document.querySelector('meta[property="og:description"]').content = t.seo_description;
+  document.querySelector('meta[property="og:locale"]').content =
+    lang === "ar" ? "ar_JO" : "en_US";
+  document.querySelector('meta[property="og:image:alt"]').content = t.seo_image_alt;
+  document.querySelector('meta[name="twitter:title"]').content = t.seo_title;
+  document.querySelector('meta[name="twitter:description"]').content = t.seo_description;
+  document.querySelector('meta[name="twitter:image:alt"]').content = t.seo_image_alt;
 }
 
 // Change language
